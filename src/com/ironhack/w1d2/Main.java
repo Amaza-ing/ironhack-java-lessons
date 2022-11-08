@@ -41,6 +41,9 @@ public class Main {
             System.out.println(evenNumbers[counter]);
             counter++;
         } while (counter < evenNumbers.length);
+
+        System.out.println(Math.sqrt(64));
+        System.out.println(Math.pow(3, 6));
     }
 
 
