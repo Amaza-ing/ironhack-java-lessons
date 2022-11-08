@@ -1,3 +1,5 @@
+package com.ironhack.w1d1;
+
 import java.util.Arrays;
 
 public class Main {
