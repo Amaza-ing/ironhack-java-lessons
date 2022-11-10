@@ -10,7 +10,7 @@ public class InputOutput {
 //        System.err.println("Prueba de error por consola");
 //        System.out.println("Prueba de escritura normal por consola");
 
-//        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 //
 //        String name;
 //        do {
@@ -19,9 +19,72 @@ public class InputOutput {
 //        } while (name.length() < 3);
 //        System.out.println("Your name is: " + name);
 //
+
+
+
+
 //        System.out.println("Please write your age");
 //        int age = scanner.nextInt();
 //        System.out.println("Your age is: " + age);
+//
+//
+//        String ageStr;
+//        boolean isValidName;
+//
+//        do {
+//            System.out.println("Please, write your age");
+//            ageStr = scannerSIn.nextLine();
+//            isValidName = true;
+//
+//            for (int i = 0; i < ageStr.length(); i++) {
+//                if (ageStr.charAt(i) < '0' || ageStr.charAt(i) > '9') {
+//                    System.out.println("Age must be a number");
+//                    isValidName = false;
+//                    break;
+//                }
+//            }
+//        } while (!isValidName);
+//
+//        int ageNum = Integer.parseInt(ageStr);
+//        System.out.println("Age: " + ageNum);
+
+
+
+
+
+        // TO DO --> Ejercicio Clase: Crear un check para que la edad introducida solo sean números
+
+//        System.out.println("Class Exercise");
+//        System.out.println("---------------");
+//        Scanner scanner3 = new Scanner(System.in);
+//        boolean isNumber;
+//        String ageTest;
+//
+//        do {
+//            // Reset isNumber in each iteration
+//            isNumber = true;
+//
+//            System.out.println("Please introduce your age");
+//            ageTest = scanner3.nextLine();
+//
+//            // Get chars from age input
+//            char[] destinationArray = new char[ageTest.length()];
+//            ageTest.getChars(0, ageTest.length(), destinationArray, 0);
+//
+//            // Checking if each char is a number
+//            for (char c : destinationArray) {
+//                //casting the char into integer (we get ascii code)
+//                int asciiElement = c;
+//                if (asciiElement < 47 || asciiElement > 58) {
+//                    isNumber = false;
+//                    break;
+//                }
+//            }
+//        } while (isNumber == false);
+//
+//        System.out.println("Finally! So your age is: " + ageTest);
+//        System.out.println("------------------------------------------------------");
+
 //
 //        scanner.close();
 
